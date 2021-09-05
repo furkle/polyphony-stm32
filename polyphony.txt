@@ -1,0 +1,84 @@
+Configuration	polyphony
+STM32CubeMX 	6.3.0
+Date	08/26/2021
+MCU	STM32H7A3ZITxQ
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DAC1	both external pin and on chip analog peripherals	DAC1_OUT1	PA4
+DAC1	both external pin and on chip analog peripherals	DAC1_OUT2	PA5
+DAC2	both external pin and on chip analog peripherals	DAC2_OUT1	PA6
+DEBUG	Serial Wire	DEBUG_JTCK-SWCLK	PA14
+DEBUG	Serial Wire	DEBUG_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM16	Enable_Timer	TIM16_VS_ClockSourceINT	VP_TIM16_VS_ClockSourceINT
+UART4	Asynchronous	UART4_RX	PA1
+UART4	Asynchronous	UART4_TX	PA0
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+9	PC13	GPIO_Input	B1 (User Button)
+37	PA0	UART4_TX	
+38	PA1	UART4_RX	
+43	PA4	DAC1_OUT1	
+44	PA5	DAC1_OUT2	
+45	PA6	DAC2_OUT1	
+63	PE13	GPIO_Output	Gate #1
+64	PE14	GPIO_Output	Gate #2
+65	PE15	GPIO_Output	Gate #3
+102	PA13	DEBUG_JTMS-SWDIO	
+107	PA14	DEBUG_JTCK-SWCLK	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DAC1	both external pin and on chip analog peripherals	DAC1_OUT1	PA4
+DAC1	both external pin and on chip analog peripherals	DAC1_OUT2	PA5
+DAC2	both external pin and on chip analog peripherals	DAC2_OUT1	PA6
+DEBUG	Serial Wire	DEBUG_JTCK-SWCLK	PA14
+DEBUG	Serial Wire	DEBUG_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM16	Enable_Timer	TIM16_VS_ClockSourceINT	VP_TIM16_VS_ClockSourceINT
+UART4	Asynchronous	UART4_RX	PA1
+UART4	Asynchronous	UART4_TX	PA0
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+9	PC13	GPIO_Input	B1 (User Button)
+37	PA0	UART4_TX	
+38	PA1	UART4_RX	
+43	PA4	DAC1_OUT1	
+44	PA5	DAC1_OUT2	
+45	PA6	DAC2_OUT1	
+63	PE13	GPIO_Output	Gate #1
+64	PE14	GPIO_Output	Gate #2
+65	PE15	GPIO_Output	Gate #3
+102	PA13	DEBUG_JTMS-SWDIO	
+107	PA14	DEBUG_JTCK-SWCLK	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : polyphony
+Project Folder : C:\Users\furkle\STM32CubeIDE\workspace_1.6.1\polyphony
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_H7 V1.9.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
