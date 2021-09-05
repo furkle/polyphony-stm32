@@ -1,0 +1,15 @@
+main.c:89:6:user_init	8	static
+main.c:111:6:update_dac_values	24	static
+main.c:148:6:monitoring_buffer	4	static
+main.c:162:6:HAL_UART_RxCpltCallback	16	static
+main.c:170:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:181:5:main	8	static
+main.c:236:6:SystemClock_Config	120	static
+main.c:295:13:MX_DAC1_Init	48	static
+main.c:342:13:MX_DAC2_Init	48	static
+main.c:383:13:MX_TIM16_Init	8	static
+main.c:415:13:MX_UART4_Init	8	static
+main.c:463:13:MX_USART3_UART_Init	8	static
+main.c:511:13:MX_USB_OTG_HS_USB_Init	4	static
+main.c:532:13:MX_GPIO_Init	64	static
+main.c:629:6:Error_Handler	4	static,ignoring_inline_asm

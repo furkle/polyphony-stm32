@@ -1,0 +1,5 @@
+buffer.c:19:17:ring_buffer_u8_init	24	static
+buffer.c:40:17:ring_buffer_u8_free	16	static
+buffer.c:52:17:ring_buffer_u8_enqueue	16	static
+buffer.c:66:17:ring_buffer_u8_dequeue	16	static
+buffer.c:79:10:_ring_buffer_u8_get_used_size	16	static
